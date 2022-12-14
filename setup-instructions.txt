@@ -1,0 +1,18 @@
+
+
+Setup:
+- react front end
+- express middleware
+- node.js server
+
+
+
+Deploy react front-end:
+- npm run build
+- firebase deploy
+- check firebase logs, https://stem-thesis-database.web.app/
+
+Deploy Node.js server:
+- https://devcenter.heroku.com/articles/deploying-nodejs
+Heroic/git
+- git push heroku main
