@@ -16,3 +16,7 @@ Deploy Node.js server:
 - https://devcenter.heroku.com/articles/deploying-nodejs
 Heroic/git
 - git push heroku main
+$ git add .
+$ git commit -am "make it better"
+$ git push heroku master
+
