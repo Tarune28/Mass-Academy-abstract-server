@@ -1,12 +1,1 @@
-{
-    "type": "service_account",
-    "project_id": "stem-thesis-database",
-    "private_key_id": "df50d558929f019afa2feaa72145579b5db00029",
-    "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCqwYPa4UW+LjwX\nO2zU0i9VYOTn9cXcXnitD9E/InmGlRQguZuOAkRYN+RMRYjIBvHheMTz7kvSg/R4\nho9GTCyKtTMcx7WMKd12KhtWcomvCPPsx+YoO9qaipiWfYbZnvsHzpQrWFWjtj7N\nWwFmx/MH057n1ZFloTu+PU2P0SpKuMUu1FUmUHYBjQuZk8Th3zbs//TnZjDASxDL\nryb6YW1HO5tvTt1SA93JOH0fOslLJdnlWwZG65Pop3di8sKLlFAqp1KnJbLnV3+g\nOnAHpLUpmvpsDA98pZck40SwGHTBX0Vm51GL5wb/p0kgVzPTnKgMZyxfCVMDFyAs\nv5r2DNu/AgMBAAECggEAFMteMFCQurlMrhOZjE1QYFhdZ/YhM1X54jFz7PlYzU/o\nVJfl3qReCFQ+JB+vqZRW7ntTmNUjPK6/HdJdLlVmcznf0JhtfnU2uAYmsB9grwUr\nF2G8oJexZnKMZH9C5cubjHbWynSGcVpnSYDUqdydtw1JY7g5baP175Ptlx8ExHaK\n+HZ1rqaIt6L+KsdBlEm8lfzedYxtTFLXwsN1DdYzY0vzh/6f/adSUiRD5vu/jN1/\nU5tfa9mu8DWq4R+1KQk+fE4e4/O64rvUE7uyZTEEggK+qcEreegyNI+TPmwFHApx\ncRzgf1nwEt3eCl6RxgTBQBS4E/CtunKH/ia+ZhOsIQKBgQDRIVYrXIsjff7wDPnn\nxzdbl7effNT059HlJyUJwn2Zhyn6rajCYyteDB0pEQa7pJ4a6kaPGcO09U2X1lqj\naNdCYMYQt3v1uldZyiZ6UbRN/2/I+5WcFSQRCL3kJGsKVcsFrKpM4cqTSO417X60\nviqzUhSCOm45u+/+dUuO0QOc7wKBgQDRBnyFz6p2dz9FSaT7jx06QWF3kGOHtrmD\nOSxs6w8v22tBG2SbKiUAYaOFu8dcstiSZDw9NSOs+rWLSrDgFQdr+o1XCjv6v0by\nLPKQe1rPL9aN9ovnASEZaVxEB6zq4iWigRm3ADCM1e9Z0qExR7lAsIIySQUnOh8h\ncCgKlCVOMQKBgHfLVdXu5BEHqpKNjFW1q0M/TEMCueY0KOrQGopVq6bXYzeiZIo9\nTmlIHSgaBbZVHPAkBRkR1CaDYdg5RKBYfP4b+zk2Mb7X6BOaFaJ5zQPk7368hr3q\n6kcLr+LQ7bP04yA0ATWbHXRzEWk4yxzz1ff0a6URnXRa8KXdQNPlbOFnAoGAIb2t\nTiBWgOcA5JtdsWnJqwSwyg8ZseeSDJenDzHmcrA1oP3eAJoN/QDF16mXJeSMxxy9\nCJhSWPLjaUe2Q4XBe/Gm7Rzuz6wetKsCwMXYw8cSGDprHO/2utZiGW0vwX6d2pyC\nXSL/s0w5ZcN1V7IfOk0Dx0A4P7vHGKu1GvgNCZECgYEAlinHu0LR4pP4Y3UhArkD\npKAN4V7FSOSxzU2J2uuLt9728Jpp9cE0LnFGrUUQL2hyWSBtuHy/KE8KH5aFBbwX\nJtMqZKnmllGz0Qwd4a5hgTvSv2ClSHKH+0h/X0WCTePEtxuRhAATUyBleFoQ0wux\nN8qgkpw3GsqWE1xzAxbF6NY=\n-----END PRIVATE KEY-----\n",
-    "client_email": "firebase-adminsdk-aean6@stem-thesis-database.iam.gserviceaccount.com",
-    "client_id": "114123337256368927975",
-    "auth_uri": "https://accounts.google.com/o/oauth2/auth",
-    "token_uri": "https://oauth2.googleapis.com/token",
-    "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
-    "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-aean6%40stem-thesis-database.iam.gserviceaccount.com"
-  }
+l
