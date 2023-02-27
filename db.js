@@ -58,7 +58,7 @@ exports.getFilterRecords = async function getFilterRecords(reqObj) {
 
     filterlist = ["title", "author", "year", "category", "subcategory", "phrase1"]
 
-    let i = filterlist.length;
+    let i = filterlist.length - 1;
     while (i >= 0) {
       if (reqObj[filterlist[i]] == null) { 
           filterlist.splice(i, 1);
@@ -97,8 +97,6 @@ exports.getFilterRecords = async function getFilterRecords(reqObj) {
     catch(err) {
       console.log(err)
     }
-
-
    
   });
 
