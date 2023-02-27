@@ -37,6 +37,16 @@ app.get("/getAllRecords", async (req, res) => {
 });
 });
 
+app.post("/getFilterRecords", async (req, res) => {
+  let data = req.body;
+  db.getFilterRecords(data).then(() => {
+  res.send({
+    ok: true,
+    records: arr
+  });
+});
+});
+
 app.get("/getSearchRecords", async (req, res) => {
   let keywords = req.query.keywords;
   db.getSearchRecords(keywords).then(() => {

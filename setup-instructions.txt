@@ -12,6 +12,8 @@ Deploy react front-end:
 - firebase deploy
 - check firebase logs, https://stem-thesis-database.web.app/
 
+
+
 Deploy Node.js server:
 - https://devcenter.heroku.com/articles/deploying-nodejs
 Heroic/git
