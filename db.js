@@ -9,8 +9,6 @@ initializeApp({
 
 const db = getFirestore();
 
-
-
 // posting sub info
 exports.getRecords = async function getRecords(doc) {
   const snapshot = await db.collection('abstracts').get();

@@ -2,7 +2,7 @@
 const cors = require('cors');
 const express = require('express')
 
-const PORT = process.env.PORT || 8080
+const PORT = process.env.PORT || 5003
 
 const app = express();
 
@@ -75,6 +75,6 @@ app.post("/blog/delete", (req, res) => {
 // TODO: READ from DB
 
 // "main" method, launches the server
-app.listen(PORT || 8080, () => {
+app.listen(PORT || 5003, () => {
   console.log(`App listening on port ${PORT}`)
 })
