@@ -57,19 +57,6 @@ app.get("/getSearchRecords", async (req, res) => {
 });
 });
 
-
-
-app.post("/blog/delete", (req, res) => {
-  console.log(req.body)
-  db.deleteDocument(req.body._id).then(() => {
-    res.send({
-      ok: true
-    });
-  });
-});
-
-
-
 // db.inventory.deleteOne( { status: "D" } )
 
 // TODO: READ from DB
