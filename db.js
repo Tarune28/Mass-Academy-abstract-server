@@ -11,11 +11,13 @@ const db = getFirestore();
 
 // posting sub info
 exports.getRecords = async function getRecords(doc) {
-  const snapshot = await db.collection('abstracts').orderBy("random").limit(10).get();
+
+  const snapshot = await db.collection('abstracts').limit(6).get();
   arr = [];
-snapshot.forEach((doc) => {
+  snapshot.forEach((doc) => {
 
     arr.push(doc.data())
+
   });
 };
 
