@@ -23,6 +23,9 @@ exports.getRecords = async function getRecords(doc) {
 
 exports.getSearchRecords = async function getSearchRecords(keyword) {
 
+  // was trying to implement method so don't have to pull entire database, but firebase does not have "string in" option
+  // this is future extension: refer to this article: https://levelup.gitconnected.com/firestore-full-text-search-at-no-extra-cost-ee148856685
+
   // titleSnapshot.forEach((doc) => {
   //   try {
   //       console.log(doc)
