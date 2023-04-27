@@ -21,26 +21,114 @@ exports.getRecords = async function getRecords(doc) {
   });
 };
 
-
 exports.getSearchRecords = async function getSearchRecords(keyword) {
-  const snapshot = await db.collection('abstracts').get();
-  arr = [];
-  snapshot.forEach((doc) => {
-    
-    let combine = doc.data()["title"] + doc.data()["category"] + doc.data()["subcategory"] + doc.data()["abstract"] + doc.data()["phrase1"] + doc.data()["phrase2"] + doc.data()["author"];
 
+  // titleSnapshot.forEach((doc) => {
+  //   try {
+  //       console.log(doc)
+  //   }
+  //   catch(err) {
+  //     console.log(err)
+  //   }
+  // });
+  // const titleSnapshot = await db.collection('abstracts').where('title', '>=', keyword).get();
+  // const categorySnapshot = await db.collection('abstracts').where('category', '>=', keyword).get();
+  // const subcategorySnapshot = await db.collection('abstracts').where('subcategory', '>=', keyword).get();
+  // const abstractSnapshot = await db.collection('abstracts').where('abstract', '>=', keyword).get();
+  // const phrase1Snapshot = await db.collection('abstracts').where('phrase1', '>=', keyword).get();
+  // const phrase2Snapshot = await db.collection('abstracts').where('phrase2', '>=', keyword).get();
+  // const authorSnapshot = await db.collection('abstracts').where('author', '>=', keyword).get();
+
+  // console.log(keyword)
+  // console.log(titleSnapshot)
+  // console.log(categorySnapshot)
+  // console.log(subcategorySnapshot)
+  // console.log(abstractSnapshot)
+  // console.log(phrase1Snapshot)
+  // console.log(phrase2Snapshot)
+  // console.log(authorSnapshot)
+
+  arr = []
+  titleSnapshot.forEach((doc) => {
     try {
-
-      if(combine.toLowerCase().includes(keyword.toLowerCase())) {
-        
         arr.push(doc.data())
-      }
     }
     catch(err) {
       console.log(err)
     }
-   
   });
+  categorySnapshot.forEach((doc) => {
+    try {
+        arr.push(doc.data())
+    }
+    catch(err) {
+      console.log(err)
+    }
+  });
+  subcategorySnapshot.forEach((doc) => {
+    try {
+        arr.push(doc.data())
+    }
+    catch(err) {
+      console.log(err)
+    }
+  });
+  abstractSnapshot.forEach((doc) => {
+    try {
+        arr.push(doc.data())
+    }
+    catch(err) {
+      console.log(err)
+    }
+  });
+  phrase1Snapshot.forEach((doc) => {
+    try {
+        arr.push(doc.data())
+    }
+    catch(err) {
+      console.log(err)
+    }
+  });
+  phrase2Snapshot.forEach((doc) => {
+    try {
+        arr.push(doc.data())
+    }
+    catch(err) {
+      console.log(err)
+    }
+  });
+  authorSnapshot.forEach((doc) => {
+    try {
+        arr.push(doc.data())
+    }
+    catch(err) {
+      console.log(err)
+    }
+  });
+
+
+  // const snapshot = await db.collection('abstracts').get();
+
+
+
+
+  // arr = [];
+  // snapshot.forEach((doc) => {
+    
+  //   let combine = doc.data()["title"] + doc.data()["category"] + doc.data()["subcategory"] + doc.data()["abstract"] + doc.data()["phrase1"] + doc.data()["phrase2"] + doc.data()["author"];
+
+  //   try {
+
+  //     if(combine.toLowerCase().includes(keyword.toLowerCase())) {
+        
+  //       arr.push(doc.data())
+  //     }
+  //   }
+  //   catch(err) {
+  //     console.log(err)
+  //   }
+   
+  // });
 };
 
 exports.getFilterRecords = async function getFilterRecords(reqObj) {
